@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Map/FirstMap.umap",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/BP_FirstBlueprint.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Map/ShootinggMap.umap",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/BP_PlayerPawn.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/BP_MyGameMode.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/BP_Bullet.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/BP_Enemy.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/BP_EnemyFactory.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/EnhanceInput/IA_Horizontal.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/EnhanceInput/IA_Vertical.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/EnhanceInput/IMC_MyInput.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/IA_Fire.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/EnhanceInput/IA_Fire.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Images/M_background-space.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Images/background-space.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Sounds/Fun-Night-in-Philippines.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Sounds/one-shote-laser.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/IA_Movement.uasset",
+				"/Users/nangmuan/Documents/Unreal Projects/MyFirstProject/Content/Blueprints/IMC_Defualt.uasset"
+			]
+		}
+	]
+}
