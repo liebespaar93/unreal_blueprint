@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ProjectReference Include="Android/Android.Automation.csproj">
+      <Project>{ddd29a8d-743a-3436-9e94-9f4936c8cd9d}</Project>
+      <Name>Android.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Apple/Apple.Automation.csproj">
+      <Project>{d7f1c648-c088-31a4-ac6c-0edc55f45749}</Project>
+      <Name>Apple.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="AutomationUtils/AutomationUtils.Automation.csproj">
+      <Project>{8507bd95-6113-3462-a421-81db31e5b64e}</Project>
+      <Name>AutomationUtils.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="BuildGraph/BuildGraph.Automation.csproj">
+      <Project>{2c512917-05c2-3712-b880-b27e1eab4539}</Project>
+      <Name>BuildGraph.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="CookedEditor/CookedEditor.Automation.csproj">
+      <Project>{1c497078-2983-3f9b-a59b-088320d1de0a}</Project>
+      <Name>CookedEditor.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="CrowdinLocalization/CrowdinLocalization.Automation.csproj">
+      <Project>{36f4059e-8c0f-38fe-a575-7c6409a67690}</Project>
+      <Name>CrowdinLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Gauntlet/Gauntlet.Automation.csproj">
+      <Project>{44b7b38b-c82e-3d42-96eb-c37a6edfa5e0}</Project>
+      <Name>Gauntlet.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="IOS/IOS.Automation.csproj">
+      <Project>{4fbb8a4f-4906-3719-92a8-b628f804b2f7}</Project>
+      <Name>IOS.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Linux/Linux.Automation.csproj">
+      <Project>{5a1b7ae7-9e97-3b52-b31e-bd8de2b3946c}</Project>
+      <Name>Linux.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Localization/Localization.Automation.csproj">
+      <Project>{e5d3fe67-0a60-3b78-85ab-9d1bba899652}</Project>
+      <Name>Localization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="LowLevelTests/LowLevelTests.Automation.csproj">
+      <Project>{1118f48d-6111-3213-b654-f97d359b655b}</Project>
+      <Name>LowLevelTests.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Mac/Mac.Automation.csproj">
+      <Project>{e42bb670-ff3f-360f-a372-99c45daaffea}</Project>
+      <Name>Mac.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="OneSkyLocalization/OneSkyLocalization.Automation.csproj">
+      <Project>{b763e24d-aa4b-315d-a49a-a75689dd3677}</Project>
+      <Name>OneSkyLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Scripts/AutomationScripts.Automation.csproj">
+      <Project>{adf68dcf-2233-3e22-aa91-58e9bad683a9}</Project>
+      <Name>AutomationScripts.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="SmartlingLocalization/SmartlingLocalization.Automation.csproj">
+      <Project>{8ae05862-41e9-30dc-a66d-5b35a7e7ea2d}</Project>
+      <Name>SmartlingLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="SteamDeck/SteamDeck.Automation.csproj">
+      <Project>{5bae7dad-d2f6-3300-9f9e-dcaa2954ab12}</Project>
+      <Name>SteamDeck.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="TVOS/TVOS.Automation.csproj">
+      <Project>{2e32bbb1-dedb-345d-a5f1-305893f6427c}</Project>
+      <Name>TVOS.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Turnkey/Turnkey.Automation.csproj">
+      <Project>{4615eb1f-5625-3dc4-a702-981c1b89ac99}</Project>
+      <Name>Turnkey.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Win/Win.Automation.csproj">
+      <Project>{a4cee49a-8247-3979-9143-e1e3188700ce}</Project>
+      <Name>Win.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="XLocLocalization/XLocLocalization.Automation.csproj">
+      <Project>{2ce5e059-e2bf-3c75-8af0-247e872c9a72}</Project>
+      <Name>XLocLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="../../../Platforms/VisionOS/Source/Programs/AutomationTool/VisionOS.Automation.csproj">
+      <Project>{95bf9e5c-c7ac-3d6b-b8dc-6d58403c5207}</Project>
+      <Name>VisionOS.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="CleanUpStaleDlls" AfterTargets="Build">
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Android.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Android.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Android.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Apple.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Apple.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Apple.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/AutomationUtils.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/AutomationUtils.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/AutomationUtils.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/BuildGraph.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/BuildGraph.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/BuildGraph.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/CookedEditor.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/CookedEditor.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/CookedEditor.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/CrowdinLocalization.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/CrowdinLocalization.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/CrowdinLocalization.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Gauntlet.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Gauntlet.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Gauntlet.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/IOS.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/IOS.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/IOS.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Linux.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Linux.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Linux.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Localization.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Localization.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Localization.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/LowLevelTests.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/LowLevelTests.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/LowLevelTests.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Mac.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Mac.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Mac.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/OneSkyLocalization.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/OneSkyLocalization.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/OneSkyLocalization.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/AutomationScripts.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/AutomationScripts.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/AutomationScripts.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/SmartlingLocalization.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/SmartlingLocalization.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/SmartlingLocalization.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/SteamDeck.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/SteamDeck.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/SteamDeck.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/TVOS.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/TVOS.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/TVOS.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Turnkey.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Turnkey.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Turnkey.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Win.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Win.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/Win.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/XLocLocalization.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/XLocLocalization.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/XLocLocalization.Automation.pdb" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/VisionOS.Automation.dll" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/VisionOS.Automation.dll.config" />
+    <Delete Files="/Users/nangmaun/Epic/UE_5.4/Engine/Binaries/DotNET/AutomationTool/VisionOS.Automation.pdb" />
+  </Target>
+</Project>

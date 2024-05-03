@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Levels/ShootingMap.umap",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_PlayerPawn.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_Enemy.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_EnemyManager.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_ShootingGameMode.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_Bullet.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Sounds/Fun-Night-in-Philippines.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Sounds/one-shote-laser.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_GameOverWidget.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BT_GameOverWidget.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BT_GameOverWidget1.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_GameOverWidget.uasset",
+				"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Content/Blueprints/BP_ShootingGameModeBase.uasset"
+			]
+		}
+	]
+}

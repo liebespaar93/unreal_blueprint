@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Source/MySecondProject/MySecondProject.Build.cs",
+		"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Source/MySecondProject.Target.cs",
+		"/Users/nangmaun/Documents/Unreal Projects/MySecondProject/Source/MySecondProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.1"
+}
